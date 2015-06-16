@@ -1,10 +1,31 @@
 <?php
+
 /*
-Plugin Name: Fubra Simple FAQ
-Description: Adds an FAQ post type and taxonomy to admin menus.
-Version: 0.2
-Author: ConfuzzledDuck
+
+	Plugin Name: Fubra Simple FAQ
+	Description: Adds an FAQ post type and taxonomy to admin menus.
+	Version: 0.2
+	Author: ConfuzzledDuck
+
 */
+
+#
+#  fubra-simple-faq.php
+#
+#  Copyright 2015, Fubra Limited. All rights reserved.
+#
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  You may obtain a copy of the License at:
+#  http://www.gnu.org/licenses/gpl-3.0.txt
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
 
 if ( !class_exists( 'Fubra_Simple_Faq' ) ) {
 
